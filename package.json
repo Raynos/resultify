@@ -1,0 +1,35 @@
+{
+  "name": "resultify",
+  "version": "1.0.0",
+  "description": "Handle errors with async/await elegantly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npr standard && node test/index.js"
+  },
+  "dependencies": {},
+  "binDependencies": {
+    "standard": "14.3.3"
+  },
+  "devDependencies": {
+    "@pre-bundled/tape": "4.11.0",
+    "npm-bin-deps": "1.4.2"
+  },
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/resultify.git",
+  "homepage": "https://github.com/Raynos/resultify",
+  "bugs": {
+    "url": "https://github.com/Raynos/resultify/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Raynos"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/resultify/raw/master/LICENSE"
+    }
+  ]
+}
