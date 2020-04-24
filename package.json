@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@pre-bundled/tape": "4.11.0",
+    "node-fetch": "2.6.0",
     "npm-bin-deps": "1.4.2"
   },
   "author": "Raynos <raynos2@gmail.com>",
