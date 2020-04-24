@@ -129,6 +129,21 @@ If you want to read some of my other related projects; check out:
 
  - [Creating errors](https://github.com/Raynos/error)
 
+## Yet another module ???
+
+> The source code is pretty small, do you really need a
+> module for a bit of wrapper try / catch code ???
+
+Honestly, we don't need this module in any of our apps, we just
+need a few strategic `try / catch {}` statements to make the
+rest of the application use `{ err, data } = await x()` natively.
+
+However, it's pretty hard to document this pattern, this README
+seems like a fantastic place to document the IDEA itself.
+
+Feel free to use `{ err, data } = await x()` without importing
+this library, in fact please do !
+
 ## Documentation.
 
 This package implements & exports three functions, `resultify`,
