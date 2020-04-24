@@ -35,7 +35,7 @@ do not like `try`/`catch`.
 There are good and part parts to Promises. `async` & `await` is
 definitely one of the good parts.
 
-Unfortunately promises merge Operational & Programmer errors
+Unfortunately promises merge [Operational & Programmer errors](https://www.joyent.com/node-js/production/design/errors)
 into a single error that you have to `try` / `catch` for.
 
 Go has a really nice pattern for handling errors explicitely
