@@ -32,7 +32,7 @@ do not like `try`/`catch`.
 
 ## Motivation
 
-There are good and part parts to Promises. `async` & `await` is
+There are good and bad parts to Promises. `async` & `await` is
 definitely one of the good parts.
 
 Unfortunately promises merge [Operational & Programmer errors](https://www.joyent.com/node-js/production/design/errors)
