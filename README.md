@@ -22,6 +22,20 @@ async function main () {
 }
 ```
 
+```ts
+type Result<T, E = Error> = Promise<ResultSync<T, E>>
+type ResultSync<T, E = Error> = {
+  err: E,
+  data?: undefined
+} | {
+  err?: undefined,
+  data: T
+} | {
+  err: E,
+  data: T
+}
+```
+
 The `resultify` library is exactly the same as `util.promisify`
 except the promise will return `{ err, data }` instead of throwing.
 
